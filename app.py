@@ -40,7 +40,7 @@ X_columns = [
 
 X_columns = pd.Series(X_columns)
 
-st.title('House Price Prediction')
+st.title('Bengaluru House Price Prediction')
 
 location = st.selectbox('Select Location', X_columns[3:])
 sqft = st.number_input('Enter Total Square Feet', min_value=1)
